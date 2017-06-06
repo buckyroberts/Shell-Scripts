@@ -1,3 +1,5 @@
+execute pathogen#infect()
+syntax on
 filetype plugin indent on
 
 set ai
@@ -14,4 +16,6 @@ color slate
 set expandtab
 set shiftwidth=4
 set tabstop=4
+
+map <C-n> :NERDTreeToggle<CR>
 
